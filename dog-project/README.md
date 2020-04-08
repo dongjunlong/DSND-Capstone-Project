@@ -13,6 +13,16 @@ Welcome to the Convolutional Neural Networks (CNN) project in the AI Nanodegree!
 
 Along with exploring state-of-the-art CNN models for classification, you will make important design decisions about the user experience for your app.  Our goal is that by completing this lab, you understand the challenges involved in piecing together a series of models designed to perform various tasks in a data processing pipeline.  Each model has its strengths and weaknesses, and engineering a real-world application often involves solving many problems without a perfect answer.  Your imperfect solution will nonetheless create a fun user experience!
 
+### main File Descriptions
+- haarcascades/haarcascade_frontalface_alt.xml - people face data 
+- bottleneck_features/ - put your  bottleneck features,VGG16 and Xception
+- images/ - put your test pictures
+- saved_models/ - save the best model
+- Udacity DSND Capstone Project Report.pdf - a report for this projec 
+- dog_app-zh.html  - source code  .html
+- dog_app-zh.ipynb - source code  .ipynb
+
+
 ## Project Instructions
 
 ### Instructions
@@ -110,15 +120,19 @@ jupyter notebook dog_app-zh.ipynb
 
 __NOTE:__ While some code has already been implemented to get you started, you will need to implement additional functionality to successfully answer all of the questions included in the notebook. __Unless requested, do not modify code that has already been included.__
 
-## Evaluation
+## Conclusion
 
-Your project will be reviewed by a Udacity reviewer against the CNN project [rubric](https://review.udacity.com/#!/rubrics/810/view).  Review this rubric thoroughly, and self-evaluate your project before submission.  All criteria found in the rubric must meet specifications for you to pass.
+- In transfer learning,  Accuracy of Xception is more than 84%, different optimizers almost have the same test Accuracy
+- Detect Dogs algorithm have a good performance, Detect Humans algorithm need improve accuracy
 
-## Project Submission
+## reference
+https://keras.io/
+https://keras.io/optimizers/
+https://www.jianshu.com/p/0acd30a23e4e
+https://yq.aliyun.com/articles/567420
 
-When you are ready to submit your project, collect the following files and compress them into a single archive for upload:
-- The `dog_app.ipynb` file with fully functional code, all code cells executed and displaying output, and all questions answered.
-- An HTML or PDF export of the project notebook with the name `report.html` or `report.pdf`.
-- Any additional images used for the project that were not supplied to you for the project. __Please do not include the project data sets in the `dogImages/` or `lfw/` folders.  Likewise, please do not include the `bottleneck_features/` folder.__
+## Thanks
+sincere appreciation for udacity and teachers
 
-Alternatively, your submission could consist of the GitHub link to your repository.
+
+
