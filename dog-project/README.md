@@ -126,10 +126,10 @@ __NOTE:__ While some code has already been implemented to get you started, you w
 - Detect Dogs algorithm have a good performance, Detect Humans algorithm need improve accuracy
 
 ## reference
-https://keras.io/
-https://keras.io/optimizers/
-https://www.jianshu.com/p/0acd30a23e4e
-https://yq.aliyun.com/articles/567420
+- https://keras.io/
+- https://keras.io/optimizers/
+- https://www.jianshu.com/p/0acd30a23e4e
+- https://yq.aliyun.com/articles/567420
 
 ## Thanks
 sincere appreciation for udacity and teachers
