@@ -19,15 +19,18 @@ Along with exploring state-of-the-art CNN models for classification, you will ma
 
 1. Clone the repository and navigate to the downloaded folder.
 ```	
-git clone https://github.com/udacity/dog-project.git
+git clone https://github.com/dongjunlong/DSND-Capstone-Project
 cd dog-project
+```
+```	
+read more in Udacity DSND Capstone Project Report.pdf
 ```
 
 2. Download the [dog dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip).  Unzip the folder and place it in the repo, at location `path/to/dog-project/dogImages`. 
 
 3. Download the [human dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/lfw.zip).  Unzip the folder and place it in the repo, at location `path/to/dog-project/lfw`.  If you are using a Windows machine, you are encouraged to use [7zip](http://www.7-zip.org/) to extract the folder. 
 
-4. Donwload the [VGG-16 bottleneck features](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogVGG16Data.npz) for the dog dataset.  Place it in the repo, at location `path/to/dog-project/bottleneck_features`.
+4. Donwload the [VGG-16 bottleneck features](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogVGG16Data.npz) and https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogXceptionData.npz for the dog dataset.  Place it in the repo, at location `path/to/dog-project/bottleneck_features`.
 
 5. (Optional) __If you plan to install TensorFlow with GPU support on your local machine__, follow [the guide](https://www.tensorflow.org/install/) to install the necessary NVIDIA software on your system.  If you are using an EC2 GPU instance, you can skip this step.
 
@@ -95,8 +98,13 @@ python -m ipykernel install --user --name dog-project --display-name "dog-projec
 
 11. Open the notebook.
 ```
-jupyter notebook dog_app.ipynb
+jupyter notebook dog_app-zh.ipynb
 ```
+- modify 
+- change dataset path/to/dog-project/lfw and path/to/dog-project/dogImages`
+- change CNN models path/to/dog-project/bottleneck_features
+- notes: if you get some errors when run，you can make sure the right source path, or delete the code if you think it is only test codes
+
 
 12. (Optional) **If you are running the project on your local machine (and not using AWS)**, before running code, change the kernel to match the dog-project environment by using the drop-down menu (**Kernel > Change kernel > dog-project**). Then, follow the instructions in the notebook.
 
